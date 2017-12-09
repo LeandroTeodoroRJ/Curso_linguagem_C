@@ -1,0 +1,19 @@
+	SUMÁRIO
+     1	HelloWorld.c
+     2	Variaveis1.c / Tabela_ASCII.jpg (anexo)
+     3	SaidaFormatada.c
+     4	Concatenacao_de_Dados.c
+     5	Entrada_de_Dados.c
+     6	OperadoresMatematicos.c
+     7	OperadoresLogicos.c
+     8	Condicionais_IF.c
+     9	Condicionais_CASE.c
+    10	Variaveis2.c
+    11	Loop_FOR.c
+    12	Loop_WHILE.c
+    13	Loop_DO_WHILE.c
+    14	Funcoes.c
+    15	Escopo.c
+    16	Variaveis_locais_e_globais.c
+    17	Funcoes_parametros.c
+
