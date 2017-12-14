@@ -1,4 +1,3 @@
-	SUMÁRIO
      1	HelloWorld.c
      2	Variaveis1.c / Tabela_ASCII.jpg (anexo)
      3	SaidaFormatada.c
@@ -17,5 +16,5 @@
     16	Variaveis_locais_e_globais.c
     17	Funcoes_parametros.c
     18	Funcoes_retorno_de_dados.c
-       
-
+    19	Ponteiros.c
+    20	ArgumentosShell.c
