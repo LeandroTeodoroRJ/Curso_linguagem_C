@@ -17,4 +17,5 @@
     17	Funcoes_parametros.c
     18	Funcoes_retorno_de_dados.c
     19	Ponteiros.c
-    20	ArgumentosShell.c
+    20	Array.c
+    21	ArgumentosShell.c
