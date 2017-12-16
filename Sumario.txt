@@ -19,3 +19,4 @@
     19	Ponteiros.c
     20	Array.c
     21	ArgumentosShell.c
+    22	Sizeof.c
