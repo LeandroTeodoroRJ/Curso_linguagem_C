@@ -20,3 +20,4 @@
     20	Array.c
     21	ArgumentosShell.c
     22	Sizeof.c
+    23	Array_como_Parametro.c
