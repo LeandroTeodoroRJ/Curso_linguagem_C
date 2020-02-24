@@ -6,14 +6,19 @@
 	utilizada para desvio do fluxo do programa após um teste lógico.
 	Os blocos de instruções são delimitados pelas chaves que abrem
 	e fecham { }.
+	As chaves só são obrigatórias se mais de um comando tiver que 
+	ser executado, mas nada impede que você as coloque para melhor 
+	visibilidade.
+	O teste lógico é uma expressão relacional que compara os valores dos 
+	seus operandos.
 	Sintaxe:
 	if (teste lógico){
-		Bloco de instruções para 
+		Bloco de instruções para
 		teste lógico verdadeiro
 	}else{
 		Bloco de instruções para 
 		teste lógico falso
-	}	
+	}
 	
 */	
 //*************************************************************************

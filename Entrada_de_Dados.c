@@ -4,6 +4,32 @@
 //
 //	Neste tópico estudaremos a entrada padrão de dados(teclado).
 //
+/*
+
+Quando usar as funções de entradas de dados:
+A função scanf(..., ...)  é usada, sem problemas, para ler variáveis simples, 
+numéricas ou char de um caracter, e para vetores dos tipos citados.
+Entretanto, apresenta limitação para vetor de char, uma vez que abandona ao 
+encontrar um espaço.
+Seu uso é ideal quando você tiver certeza de não haver a menor possibilidade 
+de a resposta conter espaço. Tal como: sigla do estado, estado civil, url etc.
+
+A função gets(...) resolve o problema da inclusão de mais de uma palavra, 
+aceitando espaço, mas não tem nenhum controle sobre o números de caracteres 
+armazenados tanto é que vários compiladores alertam para a insegurança 
+do seu uso. Não sendo aconselhado seu uso
+
+A função fgets(..., ...., ....), assim como gets(...), lê todos os caracteres, 
+inclusive espaços, mas especifica em um dos parâmetros o máximo de caracteres 
+que poderá ser armazenado.
+Um dos parâmetros indica, através da sigla stdin que a leitura será 
+feita do teclado.
+Reforçamos que a leitura termina quando se pressiona a tecla enter ou n-1 
+caracteres tenham sido lidos, justificando a inserção do terminador nulo(’\0’).
+Muita atenção para a adição de uma nova linha quando o conteúdo digitado 
+não ultrapassar a n-1 caracteres.
+
+*/
 //*************************************************************************
 
 #include <stdio.h>
@@ -41,4 +67,15 @@ int main(){
 
 	return 0;
 
+//  Utilizando a função fgets
+	char strvar[100];
+//	fgets(vetor de char, tamanho de leitura <int>, local de leitura);
+//	stdin - Standart Input - Entrada Padrão
+	fgets(strvar, 100, stdin);  //Lê 99 caracteres já que 1 é reservado
+								//para o caractere nulo \0
+	printf("%s", strvar);	//Imprime na tela a string
+
 }
+
+
+

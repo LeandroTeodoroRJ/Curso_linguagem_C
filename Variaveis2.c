@@ -3,6 +3,18 @@
 //************************************************************************
 /*
 	Observe as linhas de código abaixo:
+
+Nota:
+Prefixado
+Incrementa antes que seja realizada uma operação com a variável associada 
+a ele.var2 = ++var1 ; primeiro incrementa 1 ao valor de var1 para depois 
+copiá-lo em var2.
+
+Pós-fixado
+Incrementa depois que for realizada uma operação com a variável associada 
+a ele.var2 = var1++ ; primeiro copia o valor de var1 para var2 e depois, 
+incrementa var1 de 1.
+
 */	
 //*************************************************************************
 
@@ -48,6 +60,10 @@ int main(){
 	return 0;
 
 }
+
+
+
+
 
 
 

@@ -14,12 +14,12 @@ int main(){
 //	Imprimindo uma variável inteira
 /*
 A mensagem que será impressa deverá estar entre aspas dupas ("). O caractere
-% indica a posição que a variável será impressa. O caractere i indica que a
-variável impressa será do tipo inteira. Então a variável é especificada 
+% indica a posição que a variável será impressa dentro da string. O caractere i 
+indica que a variável impressa será do tipo inteira. Então a variável é especificada 
 sendo antecedida de uma vírgula.
 */
 	int num=34;
-	printf("%i",num); 					  
+	printf("%i",num);
 	printf("\n");
 	printf("%i\n",num);   //Imprime novamente com a quebra de linha embutida.
 	int num2=14;
@@ -27,8 +27,10 @@ sendo antecedida de uma vírgula.
 								//tela. O primeiro % recebe num e o seugundo
 								//recebe num2.
 	printf("%5i\n",num);  //Imprime a variável reservando 5 casas e alinha
-					      //à direita.				  
-	printf("%-5i\n",num); //Agora alinha à esquerda.	
+					      //à direita.
+	printf("%-5i\n",num); //Agora alinha à esquerda.
+	printf("%05i\n",num);  //Imprime a variável reservando 5 casas e preenche
+							//com zeros a esquerda
 	int casas=4;
 	printf("%*i\n",casas,num);  //Aqui o número de casas é passado por uma
 								//variável interira. Note o * no lugar do
@@ -41,14 +43,16 @@ sendo antecedida de uma vírgula.
 	float rel1=0.3;
 	printf("%f\n",rel1);	//Opção f para ponto flutuante
 	printf("%.2f\n",rel1);	//Formata com duas casas decimais após a vírgula.
-	printf("%8.2f\n",rel1); //Formata com 8 casa totais e duas decimais.
+	printf("%8.2f\n",rel1); //Formata com 8 casa totais (incluindo o .) e duas decimais.
 	printf("%-8.2f\n",rel1);//Alinha à esquerda
 	printf("%e\n",rel1); 	//Formata em notação expoente de 10
 	printf("%.2e\n",rel1);	//Formata com duas casas decimais após a vírgula.
 
 //	Imprimindo 1 caractere 
 	char var='C';
+	int  asc=82;
 	printf("%c\n",var);			//Opção c para caractere 
+	printf("%c\n",asc);			//Imprime o caractere R da tabela ASCII
 
 //	Imprimindo uma string
 	char str[14]="Dennis Ritchie"; 
@@ -68,6 +72,8 @@ sendo antecedida de uma vírgula.
 							//um tipo para o outro, chamamos a operação
 							//de cast.
 
-	return 0;
+//	Imprimindo o sinal de + usando o %+
+	printf("\n%+d\t%+d\n", -23, 23);
 
+	return 0;
 }

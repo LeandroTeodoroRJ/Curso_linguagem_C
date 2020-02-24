@@ -1,25 +1,34 @@
-     1	HelloWorld.c
-     2	Variaveis1.c / Tabela_ASCII.jpg (anexo)
-     3	SaidaFormatada.c
-     4	Concatenacao_de_Dados.c
-     5	Entrada_de_Dados.c
-     6	OperadoresMatematicos.c
-     7	OperadoresLogicos.c
-     8	Condicionais_IF.c
-     9	Condicionais_CASE.c
-    10	Variaveis2.c
-    11	Loop_FOR.c
-    12	Loop_WHILE.c
-    13	Loop_DO_WHILE.c
-    14	Funcoes.c
-    15	Escopo.c
-    16	Variaveis_locais_e_globais.c
-    17	Funcoes_parametros.c
-    18	Funcoes_retorno_de_dados.c
-    19	Ponteiros.c
-    20	Array.c
-    21	ArgumentosShell.c
-    22	Sizeof.c
-    23	Array_como_Parametro.c
-    24	Pasta SharedObject
-	25	Estruturas.c
+SUMÁRIO:
+
+HelloWorld.c  *
+Estrutura_Basica.txt *
+Variaveis1.c / Tabela_ASCII.jpg (anexo) *
+Variaveis2.c *
+SaidaFormatada.c *
+Concatenacao_de_Dados.c
+Entrada_de_Dados.c *
+Limpeza_de_Buffer.c	*	
+OperadoresMatematicos.c *
+OperadoresLogicos.c 
+Operador_Condicional_Ternario.c
+Condicionais_IF.c *
+Condicionais_CASE.c *
+Loop_FOR.c *
+Loop_WHILE.c *
+Loop_DO_WHILE.c 
+Array.c *
+Strings.c FAZER
+Funcoes.c *
+Escopo.c *
+Variaveis_locais_e_globais.c
+Funcoes_parametros.c *
+Funcoes_retorno_de_dados.c *
+Ponteiros.c
+Sizeof.c *
+Array_como_Parametro.c *
+Criar uma DLL no C - Pasta SharedObject
+Estruturas.c
+Funcao_dentro_da_Struct.c
+ArgumentosShell.c
+Trabalhando_com_arquivos.c *
+fgets.c *

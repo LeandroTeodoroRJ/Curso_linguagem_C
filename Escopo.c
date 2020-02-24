@@ -12,50 +12,20 @@
 
 #include <stdio.h>
 
-int main(){
-	
-	void mensagem(){ 
-		int a=0;		
-		printf("Curso de C.\n");
-		void func2(){
-			a=1;
-			printf("Função func2\n");
-		}
-		func2();	//Chamada de func2
-	}
+int var1;		//Essa é uma variável global pode ser acessada em 
+				//qualquer parte do programa. Assim torna-se o 
+				//escopo de maior hierarquia.
 
-	void func3(){
-		printf("Função func3\n");
-	}
-
-	mensagem();		
-	func3();		
-
-	return 0;
-
+void func1(){		//Declaração de uma função.
+	int var_local;	//Essa é uma variável local, só pode ser acesada
+					//pela função que a declarou.
+	var_local=7;
+	var1=9;			//Acessando uma variável global por uma função fora da main
 }
 
-/*
-	Nesse código existem 4 funções declaradas: a função main, mensagem, func2 
-	e func3.
-	Note que a função func2 é declarada dentro da função mensagem, então, nesse
-	caso a organização do escopo fica da seguinte forma:
-
-  main	
-	|	
-	|mensagem
-	|	|func2
-	|
-	|func3
-
-	O escopo da função main é o principal.	
-	As funções mensagem e func3 estão declaradas dentro do escopo da 
-	função main. E a função func2 está declarada dentro do escopo da função
-	mensagem.
-	É possível chamar funções dentro do escopo, sendo assim a função main
-	pode chamar as funções mensagem e func3. E a função mensagem pode chamar
-	a funcão func2.
-	Os escopos superiores da função func2 são os escopos das funções mensagem
-	e main. E o escopo superior da função func3 é o escopo da função main.
-
-*/
+int main(){
+	var1=3;			//Acessando a variável global;
+//	var_local=5;	//Aqui o compilador levantará uma exceção pois estamos
+					//tentando acessar uma variável local fora do seu escopo.
+					//Descomente a linha para ver...
+}

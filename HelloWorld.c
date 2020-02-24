@@ -5,11 +5,12 @@
 //	Obs:	Executar $dpkg -l gcc no Linux para checar se o compilador gcc
 //			está instalado. Caso contrário executar 
 //			$sudo apt-get install gcc (Debian)
-//			Para compilar: $gcc <nome_arquivo_fonte> -o<nome_do_programa>
-//			Exemplo:	   $gcc HelloWord.c -oHelloEx1
+//			Para compilar: $gcc -o <nome_do_programa>  <nome_arquivo_fonte.c>
+//			Exemplo:	   $gcc -o HelloEx1 HelloWord.c
 //			Para executar, na pasta do programa executar: 
 //			$./<nome_do_programa>
 //
+//	Obs2:	Editor de código utilizado GNU Nano
 //*************************************************************************
 
 //	Isso é um comentário, em uma mesma linha o que vier depois de // é

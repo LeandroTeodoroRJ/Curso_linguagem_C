@@ -7,7 +7,7 @@
 	o bloco de comandos é executado.
 	A sintaxe é mostrada abaixo:
 		
-	while (<condição>){
+	while (condição){
 		bloco de
 		comandos
 	}

@@ -4,7 +4,8 @@
 /*
 	As funções também podem receber dados pelos seus parâmetros, para
 	serem manipulados pela função. Os dados são passados na forma de
-	argumentos. 
+	argumentos. Na passagem por valor, uma cópia do valor, ou valores, 
+	é passada para os parâmetros da função chamada.
 	Observe os exemplos abaixo:
 	
 */	

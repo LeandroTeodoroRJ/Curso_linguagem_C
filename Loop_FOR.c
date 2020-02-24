@@ -8,7 +8,7 @@
 	A primeira estrutura apresentada é o laço com a instrução for,
 	cuja a sintaxe está apresentada abaixo:
 		
-	for (<inicialização da variável;<condição>;<incremento>){
+	for (valor inicial ; expressão de teste ; incremento){
 		bloco de
 		comandos
 	}
