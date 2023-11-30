@@ -7,6 +7,10 @@
 //			$sudo apt-get install gcc (Debian)
 //			Para compilar: $gcc -o <nome_do_programa>  <nome_arquivo_fonte.c>
 //			Exemplo:	   $gcc -o HelloEx1 HelloWord.c
+//          Para compilar com suporte ao gbd (debugger):
+//                         $gcc -o HelloEx1 HelloWord.c -g
+//                         $gbd ./HelloEx1
+//                         (gdb)lay split  ..ou..  (gdb)lay src
 //			Para executar, na pasta do programa executar: 
 //			$./<nome_do_programa>
 //
