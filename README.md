@@ -32,5 +32,5 @@ estruturas.c  --Utilizando structs em C.\
 Funcao_Dentro_da_Struct.c  --Passando o ponteiro de uma função para a struct.\
 Trabalhando_com_arquivos.c  --Manipulando arquivos no disco.\
 fgets.c  --Lendo strings em arquivos. (arq_fgets.txt)\
-SharedObject  --Utilizando arquivos pré-compilados.
+SharedObject  --Utilizando arquivos pré-compilados.\
 Tabela_ASCII.jpg  --Tabela ASCII para consulta.
