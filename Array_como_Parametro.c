@@ -6,27 +6,27 @@
 	o exemplo abaixo:
 */
 //*************************************************************************
-	
-#include <stdio.h>
-		
 
-int main(){ 	
-//	Exemplo 1:	
+#include <stdio.h>
+
+float media(float num[],int total){ 	//Tira a média dos números.
+										//total recebe o tamanho do array
+										//num[] recebe o ponteiro do array
+	float md;
+	int i;			//Iterador que percorrerá o array local
+	float soma=0;
+	for (i=0;i<total;i++){
+		soma=soma+num[i];
+	}
+	md=soma/total;
+	return md;
+}
+
+int main(){
+//	Exemplo 1:
 	float var[]={4,5,7,9};
 	int elementos=(sizeof(var)/4);	//Número total de elementos(tamanho do array)
-	
-	float media(float num[],int total){ 	//Tira a média dos números. 
-											//total recebe o tamanho do array
-											//num[] recebe o ponteiro do array 
-		float md;
-		int i;			//Iterador que percorrerá o array local
-		float soma=0;
-		for (i=0;i<total;i++){
-			soma=soma+num[i];
-		}
-		md=soma/total;
-		return md;
-	}
+
 	printf("A média é: %.2f\n",media(var,elementos));
 	//Passa como argumento o ponteiro do array e seu tamanho
 
@@ -39,5 +39,5 @@ int main(){
 	printf("O determinante da matriz é: %.2f\n",det(matriz));
 	//Passa o ponteiro da matriz(array) como argumento
 
-	return 0;				  
+	return 0;
 }
